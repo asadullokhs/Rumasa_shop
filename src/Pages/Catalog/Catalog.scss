@@ -1,0 +1,417 @@
+.catalog{
+    height: auto;
+    .container{
+        .breadcrumb{
+            p{
+                color: #494949;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 10px;
+                a{
+                 color: #494949;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin-right: 5px;
+                }
+                b{
+                    color: #3D3D3D;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .all{
+            height: 4289px;
+            .first{
+                h1{
+                    color: #1C1C1C;
+                    font-size: 70px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 95px;
+                }
+                .a{
+                    .search{
+                        border: 1px solid rgba(211, 211, 211, 1);
+                        width: 681px;
+                        height: 50px;
+                        p{
+                            padding-left: 20px;
+                            padding-top: 14px;
+                            width: auto;
+                            color: rgba(57, 57, 57, 1);
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 16.44px;
+                        }
+                        .lupa{
+                            width: 45px;
+                            height: 45px;
+                        }
+                    }
+                    .drops{
+                        .dropdown{
+                            p{
+                               color: #393939;
+                               font-size: 14px;
+                               font-style: normal;
+                               font-weight: 400;
+                               line-height: normal;
+                               padding-top: 17px;
+                               padding-right: 11px;
+                            }
+                            .btn{
+                                padding: 10px;
+                                border-radius: 0;
+                                margin-right: 10px;
+                                border: 1px solid rgba(211, 211, 211, 1);
+                                color: #393939;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+            }
+            .second{
+                height: 2050px;
+                padding-top: 60px;
+                position: relative;
+                .row{
+                    width: 100%;
+                    .left,.right{
+                        .cards{
+                            gap: 20px;
+                            .card{
+                                border-radius: none;
+                                width: 310px;
+                                height: 70px;
+                                .card-header{
+                                    .card-img-top{
+                                        position: relative;
+                                    }
+                                    .rasm{
+                                        position: absolute;
+                                        top: 10px;
+                                        right: 0px;
+                                    }
+                                }
+                                .card-body{
+                                background-color: rgba(255, 255, 255, 1);
+                                box-shadow: 0px 33px 69px 0px rgba(0, 0, 0, 0.1);
+                                .card-title{
+                                    color: #000;
+                                    font-size: 22px;
+                                    font-weight: 700;
+                                    margin: 0;
+                                    line-height: 30px;
+                                }
+                                p{
+                                    color: #474747;
+                                    font-size: 14px;
+                                    line-height: 23px;
+                                    margin: 0;
+                                    margin-bottom: 9px;
+                                }
+                                .price{
+                                    color: #2F2F2F;
+                                    font-size: 22px;
+                                    font-weight: 700;
+                                    line-height: 24px;
+                                }
+                                .buttons{
+                                    padding-top: 15px;
+                                    .first{
+                                        background-color: #BB9B75;
+                                        box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.30);
+                                        height: 52px;
+                                        color: white;
+                                    }
+                                    .second{
+                                        border-radius: 3px;
+                                        border: 1px solid #BB9B75;
+                                        background-color: none;
+                                        height: 52px;
+                                        margin-top: 10px;
+                                        padding: 0;
+                                    }
+                                }
+                                }
+                            }
+                        }
+                    }
+                
+                }
+                .open{
+                    position: absolute;
+                    top: 1920px;
+                    left: 580px;
+                    background-color: rgba(187, 155, 117, 1);
+                    width: 202px;
+                    height: 52px;
+                    color: #FFF;
+                    text-align: center;
+                    border-radius: 0;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                }
+            }
+            .third{
+                background-color: rgba(242, 242, 242, 1);
+                padding: 30px;
+                .text-1{
+                    border-bottom: 1px solid rgba(222, 222, 222, 1);
+                    padding-bottom: 10px;
+                    h1{
+                        color: #303030;
+                        font-size: 55px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 75px;
+                    }
+                    p{
+                        color: #303030;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                        img{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .catalog{
+        height: 4580px;
+        .container{
+            .breadcrumb{
+                margin: 0;
+                p{
+                    color: #494949;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 10px;
+                    a{
+                     color: #494949;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                    margin-right: 5px;
+                    }
+                    b{
+                        color: #3D3D3D;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            .all{
+                height: 4289px;
+                .first{
+                    h1{
+                        color: #1C1C1C;
+                        text-align: center;
+                        font-size: 42px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 38px;
+                    }
+                    .a{
+                        flex-direction: column;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        gap: 20px;
+                        .search{
+                            border: 1px solid rgba(211, 211, 211, 1);
+                            width: 100%;
+                            height: 50px;
+                            p{
+                                padding-left: 20px;
+                                padding-top: 14px;
+                                width: auto;
+                                color: rgba(57, 57, 57, 1);
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 16.44px;
+                            }
+                            .lupa{
+                                width: 45px;
+                                height: 45px;
+                                position: absolute;
+                                left: 500px;
+                            }
+                        }
+                        .drops{
+                            justify-content: space-between;
+                            .dropdown{
+                                p{
+                                   color: #393939;
+                                   font-size: 14px;
+                                   font-style: normal;
+                                   font-weight: 400;
+                                   line-height: normal;
+                                   padding-top: 17px;
+                                   padding-right: 11px;
+                                }
+                                .btn{
+                                    padding: 10px;
+                                    border-radius: 0;
+                                    margin-right: 10px;
+                                    border: 1px solid rgba(211, 211, 211, 1);
+                                    color: #393939;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                        }
+                    }
+                }
+                .second{
+                    width: 100%;
+                    height: 2050px;
+                    padding-top: 60px;
+                    position: relative;
+                    .row{
+                        width: 100% !important;
+                        .left,.right{
+                            .io{
+                                width: 220% !important;
+                            }
+                            .cards{
+                                gap: 20px;
+                                width: 220%;
+                                .card{
+                                    border-radius: none;
+                                    width: 310px;
+                                    height: 70px;
+                                    .card-header{
+                                        .card-img-top{
+                                            position: relative;
+                                        }
+                                        .rasm{
+                                            position: absolute;
+                                            top: 10px;
+                                            right: 0px;
+                                        }
+                                    }
+                                    .card-body{
+                                    background-color: rgba(255, 255, 255, 1);
+                                    box-shadow: 0px 33px 69px 0px rgba(0, 0, 0, 0.1);
+                                    .card-title{
+                                        color: #000;
+                                        font-size: 22px;
+                                        font-weight: 700;
+                                        margin: 0;
+                                        line-height: 30px;
+                                    }
+                                    p{
+                                        color: #474747;
+                                        font-size: 14px;
+                                        line-height: 23px;
+                                        margin: 0;
+                                        margin-bottom: 9px;
+                                    }
+                                    .price{
+                                        color: #2F2F2F;
+                                        font-size: 22px;
+                                        font-weight: 700;
+                                        line-height: 24px;
+                                    }
+                                    .buttons{
+                                        padding-top: 15px;
+                                        .first{
+                                            background-color: #BB9B75;
+                                            box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.30);
+                                            height: 52px;
+                                            color: white;
+                                        }
+                                        .second{
+                                            border-radius: 3px;
+                                            border: 1px solid #BB9B75;
+                                            background-color: none;
+                                            height: 52px;
+                                            margin-top: 10px;
+                                            padding: 0;
+                                        }
+                                    }
+                                    }
+                                }
+                            }
+                        }
+                        .right{
+                            display: none !important;
+                        }
+                    
+                    }
+                    .open{
+                        position: absolute;
+                        top: 1940px;
+                        left: 156px;
+                        background-color: rgba(187, 155, 117, 1);
+                        width: 202px;
+                        height: 52px;
+                        color: #FFF;
+                        text-align: center;
+                        border-radius: 0;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px;
+                    }
+                }
+                .third{
+                    background-color: rgba(242, 242, 242, 1);
+                    padding: 30px;
+                    .text-1{
+                        border-bottom: 1px solid rgba(222, 222, 222, 1);
+                        padding-bottom: 10px;
+                        h1{
+                            color: #303030;
+                            font-size: 30px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 32px;
+                        }
+                        p{
+                            color: #303030;
+font-size: 13px;
+
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+                            img{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

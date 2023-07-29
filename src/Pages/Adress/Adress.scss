@@ -1,0 +1,426 @@
+.adress{
+    .container{
+        .breadcrumb{
+            p{
+                color: #494949;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 10px;
+                a{
+                 color: #494949;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin-right: 5px;
+                }
+                b{
+                    color: #3D3D3D;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .all{
+            .top,.name{
+                gap: 50px;
+                .box{
+                    width: 70px;
+                    height: 70px;
+                    background-color: rgba(249, 249, 249, 1);
+                    text-align: center;
+                    padding-top: 20px;
+                    font-size: 20px;
+                    border-radius: 0;
+                }
+                b{
+                    width: auto;
+                    margin-top: -15px;
+                    color: #3D3D3D;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-right: -10px;
+                }
+            }
+            h1{
+                color: #1C1C1C;
+                text-align: center;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 95px;   
+                margin-bottom: 50px;             
+            }
+            .btn{
+                padding-top: 20px;
+                border: 1px solid #D8D8D8;
+                border-radius: 0;
+                p{
+                    color: #3D3D3D;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;                    
+                }
+                b{
+                    color: #BB9B75;
+                    text-align: right;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;                    
+                }
+            }
+            .row{
+                .left{
+                    h2{
+                        color: #1C1C1C;
+                        font-size: 35px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 45px; 
+                        margin-top: 40px;                       
+                    }
+                    .inputs{
+                        .input{
+                            b{
+                                color: #474747;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 16px;
+                                margin-top: 20px;   
+                                margin-bottom: 7px;                             
+                            }
+                            input{
+                                border-radius: 0;
+                            }
+                        }
+                        .exeption{
+                            gap: 20px;
+                            .form-control{
+                                width: 364px;
+                            }
+                        }
+                        .big-input{
+                            .form-control{
+                                height: 241px;
+                                border-radius: 0;
+                                p{
+                                    color: rgba(208, 208, 208, 1);
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    margin-top: 40px;
+                    h2{
+                        color: #1C1C1C;
+                        font-size: 35px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 45px;                   
+                    }
+                    .summa{
+                        background-color: #F8F8F8;
+                        padding: 20px;
+                        .itog{
+                            background-color: #fff;
+                            padding: 20px;
+                            .first,.new{
+                                padding-bottom: 10px;
+                                padding-top: 10px;
+                                border-bottom: 1px solid #F4F4F4;
+                                b{
+                                    color: #272727;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    line-height: 16px;
+                                    text-transform: uppercase;
+                                }
+                                p{
+                                    color: #474747;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    margin-top: 10px;                                
+                                }
+                                span{
+                                    color: #BB9B75;
+                                    margin-top: 10px;
+                                    text-align: right;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;                                
+                                }
+                            }
+                            .new{
+                                p{
+                                    color: #8C8888;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;                                    
+                                }
+                            }
+                            .second{
+                                p{
+                                    color: #474747;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    margin-top: 20px;
+                                    line-height: normal;                                
+                                }
+                                span{
+                                    margin-top: 20px;
+                                    color: #BB9B75;
+                                    text-align: right;
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;                                
+                                }
+                            }
+                        }
+                        p{
+                            color: #363537;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            margin-top: 10px;
+                            line-height: 20px;                            
+                        }
+                        .btn{
+                            width: 100%;
+                            height: 52px;
+                            border-radius: 0;
+                            margin-top: 20px;
+                            background-color: #BB9B75;
+                            filter: drop-shadow(0px 10px 22px rgba(168, 134, 94, 0.30));
+                            color: white;
+                            padding-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .adress{
+        .container{
+            .all{
+                .top,.name{
+                    gap: 50px;
+                    .box{
+                        width: 70px;
+                        height: 70px;
+                        background-color: rgba(249, 249, 249, 1);
+                        text-align: center;
+                        padding-top: 20px;
+                        font-size: 20px;
+                        border-radius: 0;
+                    }
+                    b{
+                        width: auto;
+                        margin-top: -15px;
+                        color: #3D3D3D;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-right: -10px;
+                    }
+                }
+                h1{
+                    color: #1C1C1C;
+                    text-align: center;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 95px;   
+                    margin-bottom: 50px;             
+                }
+                .kupon{
+                    padding-top: 20px;
+                    border: 1px solid #D8D8D8;
+                    border-radius: 0;
+                    width: 100%;
+                    padding-left: 90px;
+
+                    p{
+                        color: #3D3D3D;
+                        font-size: 18px;
+                        text-align: center;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;                    
+                    }
+                    b{
+                        color: #BB9B75;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        text-align: center;
+                        line-height: normal;                    
+                    }
+                }
+                .row{
+                    flex-direction: column;
+                    .left{
+                        width: 100%;
+                        h2{
+                            color: #1C1C1C;
+                            font-size: 35px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 45px; 
+                            margin-top: 40px;                       
+                        }
+                        .inputs{
+                            .input{
+                                b{
+                                    color: #474747;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: 16px;
+                                    margin-top: 20px;   
+                                    margin-bottom: 7px;                             
+                                }
+                                input{
+                                    border-radius: 0;
+                                }
+                            }
+                            .exeption{
+                                gap: 20px;
+                                .form-control{
+                                    width: 248px;
+                                }
+                            }
+                            .big-input{
+                                .form-control{
+                                    height: 241px;
+                                    border-radius: 0;
+                                    p{
+                                        color: rgba(208, 208, 208, 1);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right{
+                        margin-top: 40px;
+                        width: 100%;
+                        margin-bottom: 40px;
+                        h2{
+                            color: #1C1C1C;
+                            font-size: 35px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 45px;                   
+                        }
+                        .summa{
+                            background-color: #F8F8F8;
+                            padding: 20px;
+                            .itog{
+                                background-color: #fff;
+                                padding: 20px;
+                                .first,.new{
+                                    padding-bottom: 10px;
+                                    padding-top: 10px;
+                                    border-bottom: 1px solid #F4F4F4;
+                                    b{
+                                        color: #272727;
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        line-height: 16px;
+                                        text-transform: uppercase;
+                                    }
+                                    p{
+                                        color: #474747;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: normal;
+                                        margin-top: 10px;                                
+                                    }
+                                    span{
+                                        color: #BB9B75;
+                                        margin-top: 10px;
+                                        text-align: right;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;                                
+                                    }
+                                }
+                                .new{
+                                    p{
+                                        color: #8C8888;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;                                    
+                                    }
+                                }
+                                .second{
+                                    p{
+                                        color: #474747;
+                                        font-size: 18px;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        margin-top: 20px;
+                                        line-height: normal;                                
+                                    }
+                                    span{
+                                        margin-top: 20px;
+                                        color: #BB9B75;
+                                        text-align: right;
+                                        font-size: 18px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;                                
+                                    }
+                                }
+                            }
+                            p{
+                                color: #363537;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                margin-top: 10px;
+                                line-height: 20px;                            
+                            }
+                            .btn{
+                                width: 100%;
+                                height: 52px;
+                                border-radius: 0;
+                                margin-top: 20px;
+                                background-color: #BB9B75;
+                                filter: drop-shadow(0px 10px 22px rgba(168, 134, 94, 0.30));
+                                color: white;
+                                padding-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

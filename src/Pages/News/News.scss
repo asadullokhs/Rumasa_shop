@@ -1,0 +1,227 @@
+.novosti{
+    .container{
+        .breadcrumb{
+            p{
+                color: #494949;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 10px;
+                a{
+                 color: #494949;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin-right: 5px;
+                }
+                b{
+                    color: #3D3D3D;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .all{
+            h1{
+                color: #1C1C1C;    
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 700;
+                margin-bottom: 50px;
+                line-height: 70px;
+            }
+            .left{
+                .news{
+                    margin-bottom: -340px;
+                    .bottom{
+                        .row{
+                            width: 100%;
+                            .col-3{
+                                .cards{
+                                    .card{
+                                        width: 244px;
+                                        height: 519px;  
+                                    }
+                                }
+                            }
+                        }
+                        .img{
+                            margin-top: 100px;
+                            margin-left: 280px;
+                            padding: 0;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+            .part{
+                padding: 20px;
+                padding-left: 57px;
+               width: 300px !important;
+               h2{
+                margin-left: 20px;
+                color: #323232;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 16px;                
+               }
+               .products{
+                background-color:  #F8F8F8;
+                margin-left: 20px;
+                width: 243px;
+                padding: 20px;
+                .first{
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #E6E6E6;
+                    padding-top: 20px;
+                   .name{
+                    margin-left: 10px;
+                    p{
+                        margin: 0;
+                        color: #323232;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px;                        
+                    }
+                    b{
+                        color: #BB9B75;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 16px;                        
+                    }
+                   }
+                }
+               }
+            }
+        }
+    }
+}
+
+@media only  screen and (max-width:600px){
+    .novosti{
+        .container{
+            .breadcrumb{
+                p{
+                    color: #494949;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 10px;
+                    a{
+                     color: #494949;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                    margin-right: 5px;
+                    }
+                    b{
+                        color: #3D3D3D;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            .all{
+                h1{
+                    color: #1C1C1C;    
+                    font-size: 70px;
+                    font-style: normal;
+                    font-weight: 700;
+                    margin-bottom: 50px;
+                    line-height: 70px;
+                }
+               .row{
+                flex-direction: column;
+                .left{
+                    width: 100%;
+                    .news{
+                        margin-bottom: -340px;
+                        .bottom{
+                            .row{
+                                width: 100%;
+                                .col-3{
+                                    width: 100%;
+                                    .cards{
+                                        .card{
+                                            width: 100%;
+                                            height: 519px;  
+                                            margin-top: 360px;
+                                        }
+                                    }
+                                }
+                            }
+                            .img{
+                                margin-top: 100px;
+                                margin-left: 280px;
+                                padding: 0;
+                                height: auto;
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+                .part{
+                    padding-left: 0;
+                    padding: 20px;
+                   width: 100% !important;
+                   margin-top: 360px;
+                   h2{
+                    margin-left: 20px;
+                    color: #323232;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                    line-height: 16px;                
+                   }
+                   .products{
+                    background-color:  #F8F8F8;
+                    margin-left: 20px;
+                    width: 100%;
+                    padding: 20px;
+                    .first{
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #E6E6E6;
+                        padding-top: 20px;
+                       .name{
+                        margin-left: 10px;
+                        p{
+                            margin: 0;
+                            color: #323232;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            margin-bottom: 30px;
+                            line-height: 16px;                        
+                        }
+                        b{
+                            color: #BB9B75;
+                            font-size: 19px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 16px;                       
+                        }
+                       }
+                    }
+                   }
+                }
+               }
+            }
+        }
+    }
+}

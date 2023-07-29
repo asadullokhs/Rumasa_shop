@@ -1,0 +1,204 @@
+.sale{
+    .container{
+        .breadcrumb{
+            p{
+                color: #494949;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 10px;
+                a{
+                 color: #494949;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin-right: 5px;
+                }
+                b{
+                    color: #3D3D3D;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .all{
+            h1{
+                color: #1C1C1C;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 70px;
+            }
+            .bottom{
+                background-color: rgba(248, 248, 248, 1);
+                padding: 40px;
+                margin-bottom: 50px;
+                .row{   
+                    .left{
+                        .title{
+                            padding: 20px;
+                            border-left: 1px solid #e6e6e6;
+                            border-bottom: 1px solid #e6e6e6;
+                            width: 680px;
+                            h2{color: #474747;
+                                font-size: 23px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 30px;}
+                                width: 680px;
+                                p{
+                                    margin: 0;
+                                    color: #474747;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    width: 680px;
+                                    font-weight: 400;
+                                    line-height: 24px;                            
+                                }
+                        }
+                       .row{
+                        .col-6{
+                            .first,.second{
+                                width: auto;
+                                gap: 10px;
+                                margin-top: 20px;
+                                img{
+                                    height: 40px;
+                                    width: 40px;
+                                }
+                                b{
+                                    margin-top: 2px;
+                                }
+                            }
+                        }
+                       }
+                    }
+                    .right{
+                        position: relative;
+                        img{
+                            position: absolute;
+                            left: -130px;
+                            top: -134px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only  screen and (max-width:600px){
+    .sale{
+        .container{
+            .breadcrumb{
+                p{
+                    color: #494949;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 10px;
+                    a{
+                     color: #494949;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                    margin-right: 5px;
+                    }
+                    b{
+                        color: #3D3D3D;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            .all{
+                h1{
+                    color: #1C1C1C;
+                    font-size: 70px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 70px;
+                }
+                .bottom{
+                    background-color: rgba(248, 248, 248, 1);
+                    padding: 40px;
+                    margin-bottom: -200px;
+                    .row{   
+                        .left{
+                            width: 100%;
+                            .title{
+                                padding: 20px;
+                                border-left: 1px solid #e6e6e6;
+                                border-bottom: 1px solid #e6e6e6;
+                                width: 680px;
+                                h2{color: #474747;
+                                    font-size: 23px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 30px;}
+                                    width: auto;
+                                    p{
+                                        margin: 0;
+                                        color: #474747;
+                                        font-size: 13px;
+                                        font-style: normal;
+                                        width: auto;
+                                        font-weight: 400;
+                                        line-height: 24px;                            
+                                    }
+                            }
+                           .row{
+                            .col-6{
+                                .first,.second{
+                                    width: auto;
+                                    gap: 10px;
+                                    margin-top: 20px;
+                                    img{
+                                        height: 40px;
+                                        width: 40px;
+                                    }
+                                    b{
+                                        margin-top: 2px;
+                                    }
+                                }
+                            }
+                           }
+                        }
+                        .right{
+                            display: none !important;
+                            position: relative;
+                            img{
+                                position: absolute;
+                                left: -130px;
+                                top: -134px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.footer{
+    .container{
+        .text{
+            h2{
+                width: auto;
+            }
+        }
+    }
+}

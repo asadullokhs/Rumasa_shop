@@ -1,0 +1,611 @@
+.singleProd{
+    .container{
+        .breadcrumb{
+            p{
+                color: #494949;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 10px;
+                a{
+                 color: #494949;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin-right: 5px;
+                }
+                b{
+                    color: #3D3D3D;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .all{
+            .first{
+                .row{
+                    .left{
+                        position: relative;
+                        padding: 0;
+                        .a1{
+                            position: absolute;
+                            top: 10px;
+                            left: 350px;
+                        }
+                        .a2{
+                            position: absolute;
+                            top: 50px;
+                            left: 350px;
+                        }
+                        .bottom{
+                            max-height: 70px;
+                            .prev{
+                                padding: 0;
+                                width: 60px;
+                            }
+                            .s{
+                                width: 70px;
+                            }
+                        }
+                        .kak{
+                            width: auto;
+                            padding: 15px !important;
+                            color: #BB9B75;
+                            text-align: center;
+                            margin-top: 25px;
+                            margin-left: 10px;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            border-radius: 0;
+                            border: 1px solid #BB9B75;
+                        }
+                    }
+                    .center{
+                        padding: 0;
+                        padding-top: 10px;
+                        .title{
+                            border-bottom: 1px solid #EEE;
+                            h1{
+                                color: #1C1C1C;
+                                font-size: 35px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 45px;
+                            }
+                        }
+                        .second{
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            border-bottom: 1px solid #EEE;
+                            height: auto;
+                            margin-bottom: 0;
+                             .price{
+                                b{
+                                    color: #2F2F2F;
+                                    font-size: 40px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 40px;
+                                    margin-right: 10px;
+                                }
+                             }
+                             .add{
+                                padding: 5px;
+                                height: 57px;
+                                gap: 5px;
+                                border: 1px solid rgba(238, 238, 238, 1);
+                                .plus{
+                                    width: 45px;
+                                    height: 45px;
+                                    border-radius: 2px;
+                                    background: #E9E9E9;
+                                 }
+                                 .min{
+                                    width: 45px;
+                                    height: 45px;
+                                    border-radius: 2px;
+                                    background: #323232;
+                                    color: white;
+                                 }
+                             }
+                             .korzina{
+                                color: white;
+                                background: #BB9B75;
+                                box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.30);
+                                border-radius: 0;
+                                height: 57px;
+                                margin-left: 10px;
+                                padding: 15px;
+                             }
+                             .like{
+                                height: 57px;
+                                width: 57px;
+                                margin-left: 10px;
+                                border-radius: 0;
+                                border: 1px solid #BB9B75;
+                             }
+                        }
+                        .third{
+                            border-bottom: 1px solid #EEE;
+                            b{color: #1C1C1C;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 45px;}
+                                p{
+                                    color: #515151;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                        }
+                        .fourth{
+                            background-color: rgba(248, 248, 248, 1);
+                            padding: 10px;
+                            padding-top: 15px;
+                            height: 78px;
+                            text-align: left;
+                            b{color: #2E2E2E;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 26px;}
+                                p{
+                                    color: #2E2E2E;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                }
+                        }
+                        .fifth{
+                            margin-top: 15px;
+                            border-top: 1px solid #EEE;
+                            b{
+                                color: #1C1C1C;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 45px;
+                            }
+                            img{
+                                padding: 0;
+                                margin-right: 5px;
+                            }
+                        }
+                        .sixth{
+                            background: url("../../../public/images/Other/BG.svg") no-repeat center center;
+                            background-size: cover;
+                            height: 166px;
+                            margin-top: 20px;
+                            .btn{
+                                margin-top: 60px;
+                                margin-left: 230px;
+                                width: 281px;
+                                height: 52px;
+                                border-radius: 0;
+                                background-color: #fff;
+                                color: #B1926E;
+                            }
+                        }
+                    }
+                    .right{
+                        .deliver{
+                            background-color: rgba(248, 248, 248, 1);
+                            padding-top: 15px;
+                            padding-left: 10px;
+                            padding-bottom: 20px;
+                            .title{
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid #EEE;
+                                h2{
+                                    color: #1C1C1C;
+                                    font-size: 30px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 20px;                                    
+                                }
+                                b{
+                                    color: #303030;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: normal;
+                                }
+                            }
+                            .text{
+                               padding-top: 10px;
+                               p{
+                                color: #494949;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                border-bottom: 1px solid #EEE;
+                                padding-bottom: 10px;
+                               }
+                            }
+                            .box{
+                                .green{
+                                    background-color: rgba(226, 239, 218, 1);
+                                    margin-right: 10px;
+                                    padding: 10px;
+                                    padding-bottom: 10px;
+                                    border-left: 2px solid rgba(208, 229, 193, 1);
+                                    p{
+                                        color: #4C7543;
+                                        font-size: 12px;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        margin-bottom: 0;
+                                    }
+                                    img{
+                                        margin-left: 15px;
+                                        margin-bottom: 15px;
+                                    }
+                                }
+                                .blue{
+                                    background-color: rgba(221, 236, 246, 1);
+                                    margin-right: 10px;
+                                    margin-top: 10px;
+                                    padding: 10px;
+                                    padding-bottom: 10px;
+                                    border-left: 2px solid rgba(196, 222, 239, 1);
+                                    b{
+                                        color: #446F8C;
+                                        font-size: 12px;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        line-height: normal;                                       
+                                    }
+                                    p{
+                                        color: #446F8C;
+                                        font-size: 12px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 16px;                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .second{
+                height: auto;
+                margin-bottom: 100px;
+                .news{
+                    margin-left: -50px;
+                }
+                .dotes{
+                    z-index: 999;
+                    margin-left: -370px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .singleProd{
+        .container{
+            .breadcrumb{
+                p{
+                    color: #494949;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 10px;
+                    a{
+                     color: #494949;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                    margin-right: 5px;
+                    }
+                    b{
+                        color: #3D3D3D;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            .all{
+                position: relative;
+                .first{
+                    .row{
+                        flex-direction: column;
+                        .left{
+                            position: relative;
+                            padding: 0;
+                            width: 100%;
+                            text-align: center;
+                            .a1{
+                                position: absolute;
+                                top: 10px;
+                                left: 440px;
+                            }
+                            .a2{
+                                position: absolute;
+                                top: 50px;
+                                left: 440px;
+                            }
+                            .bottom{
+                                max-height: 70px;
+                                .prev{
+                                    padding: 0;
+                                    width: 60px;
+                                }
+                                .s{
+                                    width: 105px;
+                                }
+                            }
+                            .kak{
+                                width: auto;
+                                position: absolute;
+                                top: 1170px;
+                                left: 0;
+                                width: 100%;
+                                padding: 15px !important;
+                                color: #BB9B75;
+                                text-align: center;
+                                margin-top: 25px;
+                                margin-left: 10px;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                border-radius: 0;
+                                border: 1px solid #BB9B75;
+                            }
+                        }
+                        .center{
+                            padding: 0;
+                            padding-top: 10px;
+                            width: 100%;
+                            .title{
+                                border-bottom: 1px solid #EEE;
+                                h1{
+                                    color: #1C1C1C;
+                                    width: 100%;
+                                    padding-bottom: 10px;
+                                    font-size: 28px;
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    line-height: 18px;
+                                }
+                            }
+                            .second{
+                                padding-top: 15px;
+                                padding-bottom: 15px;
+                                border-bottom: 1px solid #EEE;
+                                height: auto;
+                                margin: 0;
+                                 .price{
+                                    b{
+                                        color: #2F2F2F;
+                                        font-size: 40px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 40px;
+                                        margin-right: 10px;
+                                    }
+                                 }
+                                 .add{
+                                    padding: 5px;
+                                    height: 57px;
+                                    gap: 5px;
+                                    border: 1px solid rgba(238, 238, 238, 1);
+                                    .plus{
+                                        width: 45px;
+                                        height: 45px;
+                                        border-radius: 2px;
+                                        background: #E9E9E9;
+                                     }
+                                     .min{
+                                        width: 45px;
+                                        height: 45px;
+                                        border-radius: 2px;
+                                        background: #323232;
+                                        color: white;
+                                     }
+                                 }
+                                 .korzina{
+                                    color: white;
+                                    background: #BB9B75;
+                                    box-shadow: 0px 10px 22px 0px rgba(168, 134, 94, 0.30);
+                                    border-radius: 0;
+                                    height: 57px;
+                                    margin-left: 10px;
+                                    padding: 15px;
+                                 }
+                                 .like{
+                                    height: 57px;
+                                    width: 57px;
+                                    margin-left: 10px;
+                                    border-radius: 0;
+                                    border: 1px solid #BB9B75;
+                                 }
+                            }
+                            .third{
+                                border-bottom: 1px solid #EEE;
+                                b{color: #1C1C1C;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 45px;}
+                                    p{
+                                        color: #515151;
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                            }
+                            .fourth{
+                                background-color: rgba(248, 248, 248, 1);
+                                padding: 10px;
+                                padding-top: 15px;
+                                height: 78px;
+                                text-align: left;
+                                b{color: #2E2E2E;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 26px;}
+                                    p{
+                                        color: #2E2E2E;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                    }
+                            }
+                            .fifth{
+                                margin-top: 15px;
+                                border-top: 1px solid #EEE;
+                                b{
+                                    color: #1C1C1C;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 45px;
+                                }
+                                img{
+                                    padding: 0;
+                                    margin-right: 5px;
+                                }
+                            }
+                            .sixth{
+                                background: url("../../../public/images/Other/BG.svg") no-repeat center center;
+                                background-size: cover;
+                                height: 166px;
+                                margin-top: 20px;
+                                .btn{
+                                    margin-top: 60px;
+                                    margin-left: 230px;
+                                    width: 281px;
+                                    height: 52px;
+                                    border-radius: 0;
+                                    background-color: #fff;
+                                    color: #B1926E;
+                                }
+                            }
+                        }
+                        .right{
+                            width: 100%;
+                            margin-top: 100px;
+                            .deliver{
+                                background-color: rgba(248, 248, 248, 1);
+                                padding-top: 15px;
+                                padding-left: 10px;
+                                padding-bottom: 20px;
+                                .title{
+                                    padding-bottom: 10px;
+                                    border-bottom: 1px solid #EEE;
+                                    h2{
+                                        color: #1C1C1C;
+                                        font-size: 30px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 20px;                                    
+                                    }
+                                    b{
+                                        color: #303030;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        line-height: normal;
+                                    }
+                                }
+                                .text{
+                                   padding-top: 10px;
+                                   p{
+                                    color: #494949;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    border-bottom: 1px solid #EEE;
+                                    padding-bottom: 10px;
+                                   }
+                                }
+                                .box{
+                                    .green{
+                                        background-color: rgba(226, 239, 218, 1);
+                                        margin-right: 10px;
+                                        padding: 10px;
+                                        padding-bottom: 10px;
+                                        border-left: 2px solid rgba(208, 229, 193, 1);
+                                        p{
+                                            color: #4C7543;
+                                            font-size: 12px;
+                                            font-style: normal;
+                                            font-weight: 800;
+                                            margin-bottom: 0;
+                                        }
+                                        img{
+                                            margin-left: 15px;
+                                            margin-bottom: 15px;
+                                        }
+                                    }
+                                    .blue{
+                                        background-color: rgba(221, 236, 246, 1);
+                                        margin-right: 10px;
+                                        margin-top: 10px;
+                                        padding: 10px;
+                                        padding-bottom: 10px;
+                                        border-left: 2px solid rgba(196, 222, 239, 1);
+                                        b{
+                                            color: #446F8C;
+                                            font-size: 12px;
+                                            font-style: normal;
+                                            font-weight: 800;
+                                            line-height: normal;                                       
+                                        }
+                                        p{
+                                            color: #446F8C;
+                                            font-size: 12px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 16px;                                        
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .second{
+                    height: auto;
+                    margin-bottom: 160px;
+                    .news{
+                        margin-left: -50px;
+                    }
+                    .dotes{
+                        z-index: 999;
+                        margin-left: -370px;
+                    }
+                    .buttons{
+                        height: 70px;
+                    }
+                }
+            }
+        }
+    }
+}

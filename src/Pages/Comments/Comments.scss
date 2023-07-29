@@ -1,0 +1,353 @@
+.comment{
+    .container{
+        .breadcrumb{
+            p{
+                color: #494949;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 10px;
+                a{
+                 color: #494949;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin-right: 5px;
+                }
+                b{
+                    color: #3D3D3D;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-left: 5px;
+                }
+            }
+        }
+        h1{
+            color: #1C1C1C;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 70px;
+        }
+        .all{
+            position: relative;
+            background-color: rgba(248, 248, 248, 1);
+            padding: 30px;
+            height: 1290px;
+            .row{
+                .left{
+                    h2{
+                        color: #1C1C1C;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                        margin-bottom: 20px;
+                    }
+                    .input{
+                        b{
+                            color: #474747;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 16px;
+                        }
+                        input,textarea{
+                            margin-top: 15px;
+                            margin-bottom: 20px;
+                            border-radius: 0;
+                        }
+                    }
+                    .first{
+                        width: 100%;
+                        gap: 20px;
+                        .btn{
+                            border: 1px solid rgba(187, 155, 117, 1);
+                            gap: 10px;
+                            border-radius: 0;
+                            img{
+                                margin-bottom: 5px;
+                            }
+                            p{
+                                margin-top: 10px;
+                                font-weight: 700;
+                            }
+                        }
+                        b{
+                            margin-top: 17px;
+                        }
+                    }
+                    .add{
+                        background-color: rgba(187, 155, 117, 1);
+                        color: white;
+                        font-weight: 700;
+                        width: 184px;
+                        border-radius: 0;
+                        padding: 15px;
+                        margin-top: 20px;
+                    }
+                }
+                .right{
+                    position: relative;
+                    .row{
+                        position: relative;
+                        .col-6{
+                            .first{
+                                width: 360px;
+                                border: 1px solid rgba(216, 216, 216, 1);
+                                margin-bottom: 20px;
+                                height: 365px;
+                                .logo{
+                                    padding-left: 25px;
+                                    padding-top: 25px;
+                                    padding-bottom: 15px;
+                                    p{
+                                        color: #2F2F2F;
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        line-height: 24px;
+                                        margin-top: 20px;
+                                        margin-left: 15px;
+                                    }
+                                }
+                                .name{
+                                    padding-left: 25px;
+                                    padding-bottom: 15px;
+                                    p{
+                                        width: auto;
+                                        color: #565656;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        line-height: 24px;
+                                    }
+                                }
+                                .__ab{
+                                    justify-content: space-between;
+                                    padding-left: 25px;
+                                    padding-top: 15px;
+                                    margin-top: 20px;
+                                    padding-right: 20px;
+                                    padding-bottom: 15px;
+                                    border-top: 1px solid rgba(216, 216, 216, 1);
+                                    .circle{
+                                        border-radius: 50%;
+                                        width: 40px;
+                                        height: 40px;
+                                        background-color: rgba(187, 155, 117, 1);
+                                        margin-left: 280px;
+                                        img{
+                                            margin-left:-2px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .abc{
+                            width: 100px;
+                            height: 100px;
+                            position: absolute;
+                            top: 1150px;
+                            left: 380px;
+                        }
+                        .abd{
+                            width: 100px;
+                            height: 100px;
+                            position: absolute;
+                            top: 1150px;
+                            left: 280px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .comment{
+        .container{
+            .breadcrumb{
+                p{
+                    color: #494949;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-top: 10px;
+                    a{
+                     color: #494949;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                    margin-right: 5px;
+                    }
+                    b{
+                        color: #3D3D3D;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            h1{
+                color: #1C1C1C;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 70px;
+            }
+            .all{
+                position: relative;
+                background-color: rgba(248, 248, 248, 1);
+                padding: 30px;
+                height: 3140px;
+                .row{
+                    flex-direction: column;
+                    .left{
+                        width: 100%;
+                        h2{
+                            color: #1C1C1C;
+                            font-size: 28px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 24px;
+                            margin-bottom: 20px;
+                        }
+                        .input{
+                            b{
+                                color: #474747;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 16px;
+                            }
+                            input,textarea{
+                                margin-top: 15px;
+                                margin-bottom: 20px;
+                                border-radius: 0;
+                            }
+                        }
+                        .first{
+                            width: 100%;
+                            gap: 20px;
+                            flex-direction: column;
+                            border: 0;
+                            text-align: center;
+                            .btn{
+                                border: 1px solid rgba(187, 155, 117, 1);
+                                gap: 10px;
+                                width: 100%;
+                                border-radius: 0;
+                                img{
+                                    margin-bottom: 5px;
+                                    margin-left: 140px;
+                                }
+                                p{
+                                    margin-top: 10px;
+                                    font-weight: 700;
+                                }
+                            }
+                            b{
+                                margin-top: 0px;
+                            }
+                        }
+                        .add{
+                            background-color: rgba(187, 155, 117, 1);
+                            color: white;
+                            font-weight: 700;
+                            width: 100%;
+                            border-radius: 0;
+                            padding: 15px;
+                            margin-top: 20px;
+                        }
+                    }
+                    .right{
+                        width: 100%;
+                        position: relative;
+                        .row{
+                            position: relative;
+                            .col-6{
+                                width: 100%;
+                                .first{
+                                    width: 100%;
+                                    border: 1px solid rgba(216, 216, 216, 1);
+                                    margin-bottom: 20px;
+                                    height: 365px;
+                                    .logo{
+                                        padding-left: 25px;
+                                        padding-top: 25px;
+                                        padding-bottom: 15px;
+                                        p{
+                                            color: #2F2F2F;
+                                            font-size: 20px;
+                                            font-weight: 700;
+                                            line-height: 24px;
+                                            margin-top: 20px;
+                                            margin-left: 15px;
+                                        }
+                                    }
+                                    .name{
+                                        padding-left: 25px;
+                                        padding-bottom: 15px;
+                                        p{
+                                            width: auto;
+                                            color: #565656;
+                                            font-size: 14px;
+                                            font-weight: 500;
+                                            line-height: 24px;
+                                        }
+                                    }
+                                    .__ab{
+                                        justify-content: space-between;
+                                        padding-left: 25px;
+                                        padding-top: 15px;
+                                        margin-top: 0;
+                                        padding-right: 20px;
+                                        padding-bottom: 15px;
+                                        border-top: 1px solid rgba(216, 216, 216, 1);
+                                        .circle{
+                                            border-radius: 50%;
+                                            width: 40px;
+                                            height: 40px;
+                                            background-color: rgba(187, 155, 117, 1);
+                                            margin-left: auto;
+                                            margin-top: 10px;
+                                            img{
+                                                margin-left:-2px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .abc{
+                                width: 100px;
+                                height: 100px;
+                                position: absolute;
+                                top: 2300px;
+                                left: 250px;
+                            }
+                            .abd{
+                                width: 100px;
+                                height: 100px;
+                                position: absolute;
+                                top: 2300px;
+                                left: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
